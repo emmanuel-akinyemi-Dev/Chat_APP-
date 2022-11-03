@@ -1,0 +1,70 @@
+
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+     align-items:center; 
+ font-size: large;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ color: aliceblue;
+
+}
+ 
+.page{
+    width: 40%;
+    min-height: 300px;
+    display: flex; 
+    flex-direction: column ;  
+    border: 1px solid black;
+    background: scroll;
+  background-image: url("Subtract.png"); 
+  background-color: rgb(243, 185, 130);
+  background-position: 50% 0;
+  background-size: cover; 
+   
+  
+}
+button{
+    width :10%;
+    height:30px;
+    border-radius: 30%;
+}
+#message_box{ 
+    width:50%;
+    height:10%;
+}
+
+.status{
+    max-width: 100%;
+    height: 10%;
+    display: flex;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+.logo{
+    width: 30px;
+    height: 10%;
+    border-radius: 100%;
+}
+#name{
+    width : 70%;
+    
+    height: 10%;
+}
+#message_body{
+    width: 100%;
+    height:250px;
+    
+}
+#input{
+    max-width: 110%;
+    height: 10%; 
+    
+     
+    
+}
+
+form{
+    padding-left:55px
+}
